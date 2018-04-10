@@ -635,7 +635,7 @@ class Driver extends webdriver.WebDriver {
     return this.execute(
         new command.Command(ExtensionCommand.INSTALL_ADDON)
             .setParameter('addon', buf.toString('base64'))
-            .setParameter('temporary, temporary));
+            .setParameter('temporary', temporary));
   }
 
   /**
